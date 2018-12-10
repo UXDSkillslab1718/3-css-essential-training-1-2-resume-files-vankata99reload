@@ -6,10 +6,29 @@ green = #A9E8DC;
 light green = #E1F7E7
 
 */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
 font-family: 'Lato', sans-serif;
+
+margin: 0;
+
 }
+
+.wrap{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: hidden;
+}
+
+
+
 h1, h2{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -19,29 +38,49 @@ h1{
 }
 
 h2{
-  font-size: 40px;
+  font-size: 30px;
 }
-.Work{
+
+.Interests, .Certification, .Work, .Education{
   background: #E1F7E7;
+  padding: 10px;
 }
-.Education{
-background: #A9E8DC;
+
+.col-narrow{
+  width: 35%;
+  float: left;
+  min-height: 175px;
+}
+.col-wide{
+  width: 65%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
 }
 
 
 header, footer{
-  background: #0284A8;
-color: #A9E8DC;
+  background: #A9E8DC;
+  color: #02547D;
+  border-style: dotted;
+  padding:10px;
+  margin: 20px;
+  line-height: 20px;
+  margin: 0 auto;
+  margin: 0;
+  }
 
+  .profile-img{
+  border-radius: 50%;
+  }
+
+
+.links a{
+  padding:10px;
+  display: inline-block;
+   color: #02547D;
 }
 
-header h1 h2{
-  color:white;
-}
-a{
-  color: lightblue;
-}
-
-a:hover {
-  text-decoration: none;
-}
+   a:hover {
+     text-decoration: none; color: white;
+   }
