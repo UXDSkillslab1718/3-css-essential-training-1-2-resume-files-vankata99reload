@@ -8,18 +8,31 @@ light green = #E1F7E7
 */
 
 body {
-
+font-family: 'Lato', sans-serif;
+}
+h1, h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+h1{
+  font-size: 70px;
 }
 
+h2{
+  font-size: 40px;
+}
 .Work{
   background: #E1F7E7;
 }
 .Education{
 background: #A9E8DC;
 }
+
+
 header, footer{
   background: #0284A8;
 color: #A9E8DC;
+
 }
 
 header h1 h2{
