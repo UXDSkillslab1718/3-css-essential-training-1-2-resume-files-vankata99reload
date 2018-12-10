@@ -40,6 +40,22 @@ h1{
 h2{
   font-size: 30px;
 }
+h3{
+  font-size: 20px
+}
+
+h4{
+  font-size: 15px
+}
+
+h4+p{
+  font-weight: 150;
+  font-style: italic;
+}
+
+h4~p{
+  font-style: oblique;
+}
 
 .Interests, .Certification, .Work, .Education{
   background: #E1F7E7;
